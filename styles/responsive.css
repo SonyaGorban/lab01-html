@@ -1,0 +1,31 @@
+.menu-btn {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+    .nav-list.open {
+    display: flex;
+  }
+
+  .container {
+    width: calc(100% - 20px);
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .section {
+    padding: 12px;
+  }
+   .menu-btn {
+    display: block;
+  }
+}
